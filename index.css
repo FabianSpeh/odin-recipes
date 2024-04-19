@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.recipe {
+    width: 400px;
+    height: 429px;
+    background-color: green;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.recipe-name {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.recipe img {
+    height: 367px;
+    object-fit: contain;
+
+
+}
